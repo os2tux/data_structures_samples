@@ -1,0 +1,21 @@
+#****Python 3.6.6****
+message = "helloWorld!"
+print(message)
+
+//****NodeJS 8.12.0****
+//Declaration followed by assignment:
+	var message
+	message = "helloWorld!"
+	console.log(message)
+//Simultaneous declaration and assignment:
+	var message = "helloWorld!"
+	console.log(message)
+
+//****Golang 1.11****
+//Declaration followed by assignment:
+	var message string
+	message = "helloWorld!"
+	fmt.Println(message)
+//Simultaneous declaration and assignment:
+	var message = "helloWorld!" || message := "helloWorld"
+	fmt.Println(message)

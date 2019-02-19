@@ -1,0 +1,31 @@
+#****Python 3.6.6****
+#Creation and addition of an element:
+	sample_list = []
+	sample_list.append("cat")
+#Retrieving the entire list:
+	print(sample_list)
+	["cat"]
+#Retrieving an element of the list:
+	print(sample_list[0])
+	"cat"
+	
+//****NodeJS 8.12.0****
+//Creation and addition of an element:
+	var sampleList = []
+	sampleList.push("cat")
+//Retrieving the entire array:
+	console.log(sampleList)
+	["cat"]
+//Retrieving an element of the array:
+	console.log(sampleList[0])
+	"cat"
+
+//****Golang 1.11****
+//Creation and addition of a single element: var sampleList []string
+	sampleList = append(sampleList, "cat")
+//Retrieving the entire slice:
+	fmt.Println(sampleList)
+	["cat"]
+//Retrieving an element of the slice:
+	fmt.Println(sampleList[0])
+	"cat"

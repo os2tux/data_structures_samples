@@ -1,0 +1,19 @@
+#****Python 3.6.6****
+#This example uses unique indices in its hashmap, which allows us to retrieve a specific
+#value by referencing its index. As long as we know the value's index, we can retrieve it
+d1 = {
+	"123": "joseph",
+	"456": "mary sue"
+}
+
+print(d1["123])
+
+#This example reuses indices in a hashmap, which will make retrieving a specific
+#element impossible since the last value to use that index as a key is what will be 
+#retrieved regardless of what the developer intended
+d1 = {
+	"employee": "joseph",
+	"employee": "mary sue"
+}
+
+print(d1["employee"])

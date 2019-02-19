@@ -1,0 +1,31 @@
+#****Python 3.6.6****
+#Creation and addition of an element:
+	sample_dict = {}
+	sample_dict["animal"] = "cat"
+#Retrieving an element of the dictionary:
+	print(sample_dictionary["animal"})
+	"cat"
+	
+	print(sample_dictionary.get("cat"))
+
+//****NodeJS 8.12.0****
+//Creation and addition of an element:
+	var sampleObject = {}; || var sampleObject = new Object{};
+	sampleObject["animal"] = cat;
+//Retrieving the entire object
+	console.log(sampleObject)
+	["animal": "cat"]
+//Retrieving an element of the object:
+	console.log("sampleObject["animal"])
+	"cat"
+
+//****Golang 1.11****
+//Creation and addition of a single element:
+	sampleMap = make(map[string]string) || sampleMap := map[string]string{}
+	sampleMap["animal"] = "cat"
+//Retrieving the entire map:
+	fmt.Println(sampleMap)
+	map[animal:cat]
+//Retrieving a single element of the map:
+	fmt.Println(sampleMap["animal"})
+	"cat"

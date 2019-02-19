@@ -1,0 +1,21 @@
+#Python 3.6.6
+
+#With variables
+import requests
+
+url = "www.google.com"
+
+def get_webpage():
+	r = requests.get(url)
+
+def print_url():
+	print(url)
+
+#Without variables
+import requests
+
+def get_webpage():
+	r = requests.get("www.google.com")
+
+def print_url():
+	print("www.google.com")
